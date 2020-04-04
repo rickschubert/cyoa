@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gophersizes/cyoa/students/rickschubert/httpstoryhandler"
+	"github.com/rickschubert/server-side-rendered-webpage/httpstoryhandler"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -47,7 +47,7 @@ func main() {
 	mux.Handle("/", defaultHandler)
 
 	fmt.Println("Launching server on port 3645")
-	err := http.ListenAndServe(":3645", mux)
+	err := http.ListenAndServe()
 	if err != nil {
 		panic(err)
 	}

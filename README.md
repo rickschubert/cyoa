@@ -1,3 +1,10 @@
+Server-side rendering on a Go server
+====================================
+
+I created this package as part of a "gophersize" - exercises to learn Golang. Below is the original instruction, as can be found at https://github.com/gophercises/cyoa .
+
+--------------------------------------------------------------
+
 # Exercise #3: Choose your own adventure
 
 [![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/cyoa) [![demo: ->](https://img.shields.io/badge/demo-%E2%86%92-blue.svg?style=for-the-badge)](https://gophercises.com/demos/cyoa/)
